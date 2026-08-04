@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Maria Andrade"
 description              : &description "Hydrology Ph.D. student at the University of Arizona working on hydrologic processes, remote sensing, groundwater-surface water interactions, flood hazards, and climate impacts."
 url                      : https://mariaandradeal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/mariaandrade.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "mariaandradeal/mariaandrade.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.

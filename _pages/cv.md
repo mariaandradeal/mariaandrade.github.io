@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my CV as a Word document](/files/Curriculum_Vitae_Maria_Andrade.docx)
+[Download my CV as a Word document]({{ base_path }}/files/Curriculum_Vitae_Maria_Andrade.docx)
 
 Education
 ======
