@@ -39,3 +39,14 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.page__content .cv-highlight {
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #2b6f9f;
+  background: #f3f8fb;
+  margin: 1.25rem 0;
+}
+
+.page__content ul li {
+  margin-bottom: 0.35rem;
+}

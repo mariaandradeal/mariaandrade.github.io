@@ -8,34 +8,34 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Marcus N. Gomes Jr., Homepage"
+title                    : "Maria Andrade"
 title_separator          : "-"
-name                     : &name "Marcus N. Gomes Jr."
-description              : &description "personal description"
-url                      : https://marcusnobrega-eng.github.io/profile/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Maria Andrade"
+description              : &description "Hydrology Ph.D. student at the University of Arizona working on hydrologic processes, remote sensing, groundwater-surface water interactions, flood hazards, and climate impacts."
+url                      : https://mariaandradeal.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "marcusnobrega-eng/profile"
+repository               : "mariaandradeal/mariaandrade.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Picture.png"
-  name             : "Marcus N. Gomes Jr., Ph.D."
-  pronouns         : # example: "he/him"  
-  bio              : "Postdoctoral Researcher Associate I"
-  location         : "Tucson - AZ"
+  avatar           :
+  name             : "Maria Andrade"
+  pronouns         : "she/her"  
+  bio              : "Ph.D. Student in Hydrology"
+  location         : "Tucson, AZ"
   employer         : "University of Arizona"
-  uri              : # URL
-  email            : "marcusnobrega.engcivil@gmail.com" 
+  uri              : "https://has.arizona.edu/person/maria-de-andrade-rocha-alencar-castro"
+  email            : "mariaandrade@arizona.edu" 
 
   # Academic websites
-  researchgate     : "https://www.researchgate.net/profile/Marcus-Gomes-Jr/research"
-  googlescholar    : "https://scholar.google.com/citations?user=Ls-Nj0YAAAAJ&hl=en&oi=ao"
-  arxiv            : "https://arxiv.org/search/physics?searchtype=author&query=Gomes,+M+N"
+  researchgate     :
+  googlescholar    :
+  arxiv            :
   impactstory      : # URL
-  orcid            : "http://orcid.org/0000-0002-8250-8195"
+  orcid            :
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
 
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "marcusnobrega-eng"
+  github           : "mariaandradeal"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         :  https://www.linkedin.com/in/marcus-n%C3%B3brega-744b61138/?locale=en_US
+  linkedin         :
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -70,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : https://www.youtube.com/channel/UCapibqwEuv8TRR5Hgt7zx4w
+  youtube          :
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -78,15 +78,15 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles and Manuscripts'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Papers and Presentations'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -212,16 +212,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

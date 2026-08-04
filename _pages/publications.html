@@ -1,37 +1,27 @@
 ---
 layout: archive
-title: "Selected Publications in Peer Reviewed Journals"
-permalink: publications/
+title: "Publications"
+permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">For a full list of journal and conference publications, please download my CV. <br>    
-    You can also check it on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>Selected journal articles, submitted manuscripts, preprints, and manuscripts in preparation.</p>
 
-{% include base_path %}
+<h2>Journal articles and manuscripts</h2>
+<hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<ul>
+  <li><strong>Castro, M.A.R.A., Gomes Jr., M. N.</strong> Municipal hazard diversity and compound disaster impacts across Brazil. <em>Natural Hazards</em>. In preparation, July 2026.</li>
+  <li><strong>Castro, M. A. R. A., Hazenberg, P., &amp; Troch, P. A.</strong> Hydraulic and thermal controls on habitat suitability, persistence, and connectivity in river corridors. <em>Ecohydrology</em>. In preparation, July 2026.</li>
+  <li><strong>Uchoa, J. G. S. M., Brandao, A. R. A., Ballarin, A. S., Leite, C. C. O., Pantarotto, H. S., Sanchez, M. H., Castro, M. A. R. A., Dutra Junior, S. A., Viana, V. N. R., Scanlon, B. R., Wendland, E. C., Zipper, S., &amp; Oliveira, P. T. S.</strong> Conjunctive water use management as a pathway to water resilience in Brazil. Submitted to <em>Nature Communications</em>, February 2026.</li>
+  <li><strong>Brandao, A. R., Castro, M. A., Sanchez, M. H., Gomes Jr, M. N., Uchoa, J. G. S., Vaz, I. C., et al.</strong> Flood Event Escalation and Urban Drainage Design Implications Under Nonstationary Rainfall in Sao Paulo State, Brazil. <em>Water</em>, 18(5), 561, 2026. <a href="https://doi.org/10.3390/w18050561">https://doi.org/10.3390/w18050561</a></li>
+  <li><strong>Gomes Jr., M. N., &amp; Castro, M. A. R. A.</strong> A continental-scale spatial multi-criteria framework for multi-hazard susceptibility and socioeconomic exposure in South America. Submitted to <em>Sustainable Cities and Society</em>, January 2026.</li>
+  <li><strong>Castro, M. A. R. A., Gomes, M. N., &amp; Montenegro, S. M. G. L.</strong> Assessing the socioeconomic benefits of the Agreste Adduction System in Pernambuco, Brazil. <em>RBRH</em>, 31, e04, 2026. <a href="https://doi.org/10.1590/2318-0331.312620250154">https://doi.org/10.1590/2318-0331.312620250154</a></li>
+  <li><strong>Gomes Jr., M. N., Castro, M. A. R. A., Castillo, L. M. R., Sanchez, M. H., Giacomoni, M. H., de Paiva, R. C. D., &amp; Bates, P. D.</strong> Spatio-temporal performance of 2D local inertial hydrodynamic models for urban drainage and dam-break applications. <em>Journal of Hydrology</em>, 665, 134661, 2026. <a href="https://doi.org/10.1016/j.jhydrol.2025.134661">https://doi.org/10.1016/j.jhydrol.2025.134661</a></li>
+  <li><strong>Castro, M. A. R. A., Gomes Jr., M. N., Rapallo, L. M., &amp; Mendiondo, E. M.</strong> Assessing the trade-offs between full momentum and local-inertial hydrodynamic models under dam-break scenarios. Submitted to <em>Natural Hazards</em>, July 2025. <a href="https://doi.org/10.21203/rs.3.rs-7160953/v1">https://doi.org/10.21203/rs.3.rs-7160953/v1</a></li>
+  <li><strong>Castro, M. A. R. A., Gomes Jr., M. N., &amp; Mendiondo, E. M.</strong> Probabilistic Dam Break Flood Mapping via Monte-Carlo Simulations using a 2D Local-Inertial Model. Submitted to <em>Water Resources Research</em>, July 2025. <a href="https://doi.org/10.22541/essoar.175242171.16927854/v1">https://doi.org/10.22541/essoar.175242171.16927854/v1</a></li>
+  <li><strong>Sanchez, M. H., Gomes Jr., M. N., Castillo, L. M. R., Castro, M. A. R. A., &amp; Mendiondo, E. M.</strong> An adaptive fuzzy logic control approach for flood risk management in a poorly gauged urban watershed: A proof of concept. Manuscript under preparation, June 2025.</li>
+  <li><strong>Sanchez, M. H., Gomes Jr., M. N., Castillo, L. M. R., Castro, M. A. R. A., &amp; Mendiondo, E. M.</strong> Assessment of urban flood risk in developing countries based on climate change scenarios. Manuscript under preparation, June 2025.</li>
+  <li><strong>Gomes, M. N., Jalihal, V., Castro, M., &amp; Mendiondo, E. M.</strong> Exploring the impact of rainfall temporal distribution and critical durations on flood hazard modeling. <em>Natural Hazards</em>, 121(9), 10989-11012, 2025. <a href="https://doi.org/10.1007/s11069-025-07186-3">https://doi.org/10.1007/s11069-025-07186-3</a></li>
+  <li><strong>Gomes Jr., M. N., Castro, M. A. R. A., da Silva, P. G. C., Giacomoni, M. H., &amp; Mendiondo, E. M.</strong> Increasing flood awareness through dam-break serious games. <em>International Journal of Disaster Risk Reduction</em>, 2024. <a href="https://doi.org/10.1016/j.ijdrr.2024.104543">https://doi.org/10.1016/j.ijdrr.2024.104543</a></li>
+</ul>
