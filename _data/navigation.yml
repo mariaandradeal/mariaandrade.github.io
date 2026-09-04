@@ -15,9 +15,6 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "Developed Models"
-    url: /models/
-
   - title: "CV"
     url: /cv/
 
