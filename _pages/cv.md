@@ -9,4 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my CV]({{ base_path }}/files/Curriculum_Vitae_Maria_Andrade.docx)
+<div class="cv-download-panel">
+  <p>My full curriculum vitae is available as a PDF.</p>
+  <p><a class="profile-button" href="{{ base_path }}/files/Maria_Andrade_CV.pdf">Download Maria Andrade's CV</a></p>
+  <p class="muted-note">Last updated: August 30, 2026.</p>
+</div>

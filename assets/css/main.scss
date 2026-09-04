@@ -50,3 +50,246 @@
 .page__content ul li {
   margin-bottom: 0.35rem;
 }
+
+/* Maria Andrade profile styling */
+
+:root {
+  --maria-accent: #a51c30;
+  --maria-accent-dark: #7d1423;
+  --maria-ink: #252a31;
+  --maria-muted: #68717d;
+  --maria-soft: #f7f1f3;
+  --maria-border: #e4e6ea;
+}
+
+.masthead__menu-item a,
+.page__content a {
+  color: var(--maria-accent);
+}
+
+.masthead__menu-item a:hover,
+.page__content a:hover {
+  color: var(--maria-accent-dark);
+}
+
+.profile-hero {
+  padding: 1.6rem 0 1.2rem;
+  border-bottom: 1px solid var(--maria-border);
+  margin-bottom: 1.8rem;
+}
+
+.profile-hero h1 {
+  max-width: 850px;
+  margin-top: 0.25rem;
+  color: var(--maria-ink);
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+
+.profile-hero p,
+.page-intro,
+.section-block p {
+  color: #343a40;
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.eyebrow {
+  margin-bottom: 0.2rem;
+  color: var(--maria-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.profile-button {
+  display: inline-block;
+  padding: 0.65rem 0.95rem;
+  border: 1px solid var(--maria-accent);
+  border-radius: 999px;
+  background: var(--maria-accent);
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.profile-button:hover {
+  background: var(--maria-accent-dark);
+  color: #fff !important;
+}
+
+.profile-button--secondary {
+  background: #fff;
+  color: var(--maria-accent) !important;
+}
+
+.profile-button--secondary:hover {
+  background: var(--maria-soft);
+  color: var(--maria-accent-dark) !important;
+}
+
+.section-block {
+  margin: 2rem 0;
+}
+
+.section-block h2,
+.publication-section h2 {
+  color: var(--maria-ink);
+  border-bottom: 2px solid var(--maria-accent);
+  padding-bottom: 0.35rem;
+}
+
+.research-grid,
+.model-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.research-card,
+.model-card,
+.cv-download-panel {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--maria-border);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(38, 45, 55, 0.06);
+}
+
+.research-card h3,
+.model-card h3,
+.timeline-content h3 {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  color: var(--maria-ink);
+}
+
+.interest-line {
+  padding-left: 1rem;
+  border-left: 4px solid var(--maria-accent);
+}
+
+.publication-section {
+  margin: 2rem 0;
+}
+
+.pub-card,
+.timeline-item {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 1rem;
+  position: relative;
+  padding: 1rem 0 1.2rem;
+  border-bottom: 1px solid var(--maria-border);
+}
+
+.pub-card::before,
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 1.05rem;
+  bottom: 0;
+  left: 55px;
+  width: 4px;
+  background: var(--maria-accent);
+}
+
+.pub-year,
+.timeline-date {
+  position: relative;
+  z-index: 1;
+  color: var(--maria-ink);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.pub-year::after,
+.timeline-date::after {
+  content: "";
+  position: absolute;
+  top: 1.75rem;
+  left: 49px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--maria-accent);
+  box-shadow: 0 0 0 2px var(--maria-accent);
+}
+
+.pub-body,
+.timeline-content {
+  padding-left: 0.25rem;
+}
+
+.pub-body p,
+.timeline-content p,
+.model-card p,
+.research-card p {
+  margin-bottom: 0.45rem;
+  color: #343a40;
+  line-height: 1.55;
+}
+
+.pub-card--highlight .pub-body,
+.timeline--news .timeline-item:first-child .timeline-content {
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: var(--maria-soft);
+}
+
+.tag,
+.venue {
+  display: inline-block;
+  margin: 0 0.35rem 0.45rem 0;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.tag {
+  padding: 0.2rem 0.45rem;
+  border: 1px solid #d8dbe0;
+  border-radius: 5px;
+  background: #f5f6f8;
+  color: #5f6772;
+}
+
+.venue {
+  color: #6a717b;
+}
+
+.muted-note {
+  color: var(--maria-muted);
+  font-size: 0.88rem;
+}
+
+@media (max-width: 640px) {
+  .pub-card,
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    padding-left: 1.2rem;
+  }
+
+  .pub-card::before,
+  .timeline-item::before {
+    left: 0;
+  }
+
+  .pub-year::after,
+  .timeline-date::after {
+    left: -1.55rem;
+    top: 0.3rem;
+  }
+}
