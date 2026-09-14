@@ -78,3 +78,10 @@ redirect_from:
     Remote sensing; surface water modeling; groundwater modeling; dam-break modeling; climate change modeling.
   </p>
 </section>
+
+<section class="section-block">
+  <h2>News</h2>
+  <div class="timeline timeline--news timeline--home-news">
+    {% include news-items.html %}
+  </div>
+</section>

@@ -12,9 +12,6 @@ main:
   - title: "News"
     url: /news/
 
-  - title: "Talks"
-    url: /talks/
-
   - title: "CV"
     url: /cv/
 
