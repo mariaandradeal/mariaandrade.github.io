@@ -228,6 +228,20 @@
   padding-left: 0.25rem;
 }
 
+.news-media {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.journal-cover {
+  width: 78px;
+  max-width: 100%;
+  border: 1px solid #d8dbe0;
+  box-shadow: 0 6px 18px rgba(38, 45, 55, 0.12);
+}
+
 .pub-body p,
 .timeline-content p,
 .research-card p {
@@ -287,5 +301,14 @@
   .timeline-date::after {
     left: -1.55rem;
     top: 0.3rem;
+  }
+
+  .news-media {
+    grid-template-columns: 74px 1fr;
+    gap: 0.9rem;
+  }
+
+  .journal-cover {
+    width: 64px;
   }
 }
